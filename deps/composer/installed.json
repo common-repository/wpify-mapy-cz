@@ -1,0 +1,973 @@
+{
+    "packages": [
+        {
+            "name": "laravel\/serializable-closure",
+            "version": "v1.3.3",
+            "version_normalized": "1.3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/laravel\/serializable-closure.git",
+                "reference": "3dbf8a8e914634c48d389c1234552666b3d43754"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/laravel\/serializable-closure\/zipball\/3dbf8a8e914634c48d389c1234552666b3d43754",
+                "reference": "3dbf8a8e914634c48d389c1234552666b3d43754",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "nesbot\/carbon": "^2.61",
+                "pestphp\/pest": "^1.21.3",
+                "phpstan\/phpstan": "^1.8.2",
+                "symfony\/var-dumper": "^5.4.11"
+            },
+            "time": "2023-11-08T14:08:06+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Laravel\\SerializableClosure\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                },
+                {
+                    "name": "Nuno Maduro",
+                    "email": "nuno@laravel.com"
+                }
+            ],
+            "description": "Laravel Serializable Closure provides an easy and secure way to serialize closures in PHP.",
+            "keywords": [
+                "closure",
+                "laravel",
+                "serializable"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/laravel\/serializable-closure\/issues",
+                "source": "https:\/\/github.com\/laravel\/serializable-closure"
+            },
+            "install-path": "..\/laravel\/serializable-closure"
+        },
+        {
+            "name": "php-di\/invoker",
+            "version": "2.3.4",
+            "version_normalized": "2.3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/PHP-DI\/Invoker.git",
+                "reference": "33234b32dafa8eb69202f950a1fc92055ed76a86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/PHP-DI\/Invoker\/zipball\/33234b32dafa8eb69202f950a1fc92055ed76a86",
+                "reference": "33234b32dafa8eb69202f950a1fc92055ed76a86",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3",
+                "psr\/container": "^1.0|^2.0"
+            },
+            "require-dev": {
+                "athletic\/athletic": "~0.1.8",
+                "mnapoli\/hard-mode": "~0.3.0",
+                "phpunit\/phpunit": "^9.0"
+            },
+            "time": "2023-09-08T09:24:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Invoker\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Generic and extensible callable invoker",
+            "homepage": "https:\/\/github.com\/PHP-DI\/Invoker",
+            "keywords": [
+                "callable",
+                "dependency",
+                "dependency-injection",
+                "injection",
+                "invoke",
+                "invoker"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/PHP-DI\/Invoker\/issues",
+                "source": "https:\/\/github.com\/PHP-DI\/Invoker\/tree\/2.3.4"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/github.com\/mnapoli",
+                    "type": "github"
+                }
+            ],
+            "install-path": "..\/php-di\/invoker"
+        },
+        {
+            "name": "php-di\/php-di",
+            "version": "6.4.0",
+            "version_normalized": "6.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/PHP-DI\/PHP-DI.git",
+                "reference": "ae0f1b3b03d8b29dff81747063cbfd6276246cc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/PHP-DI\/PHP-DI\/zipball\/ae0f1b3b03d8b29dff81747063cbfd6276246cc4",
+                "reference": "ae0f1b3b03d8b29dff81747063cbfd6276246cc4",
+                "shasum": ""
+            },
+            "require": {
+                "laravel\/serializable-closure": "^1.0",
+                "php": ">=7.4.0",
+                "php-di\/invoker": "^2.0",
+                "php-di\/phpdoc-reader": "^2.0.1",
+                "psr\/container": "^1.0"
+            },
+            "provide": {
+                "psr\/container-implementation": "^1.0"
+            },
+            "require-dev": {
+                "doctrine\/annotations": "~1.10",
+                "friendsofphp\/php-cs-fixer": "^2.4",
+                "mnapoli\/phpunit-easymock": "^1.2",
+                "ocramius\/proxy-manager": "^2.11.2",
+                "phpstan\/phpstan": "^0.12",
+                "phpunit\/phpunit": "^9.5"
+            },
+            "suggest": {
+                "doctrine\/annotations": "Install it if you want to use annotations (version ~1.2)",
+                "ocramius\/proxy-manager": "Install it if you want to use lazy injection (version ~2.0)"
+            },
+            "time": "2022-04-09T16:46:38+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src\/functions.php"
+                ],
+                "psr-4": {
+                    "WpifyMapyCzDeps\\DI\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The dependency injection container for humans",
+            "homepage": "https:\/\/php-di.org\/",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interop",
+                "dependency injection",
+                "di",
+                "ioc",
+                "psr11"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/PHP-DI\/PHP-DI\/issues",
+                "source": "https:\/\/github.com\/PHP-DI\/PHP-DI\/tree\/6.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/github.com\/mnapoli",
+                    "type": "github"
+                },
+                {
+                    "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/php-di\/php-di",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "..\/php-di\/php-di"
+        },
+        {
+            "name": "php-di\/phpdoc-reader",
+            "version": "2.2.1",
+            "version_normalized": "2.2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/PHP-DI\/PhpDocReader.git",
+                "reference": "66daff34cbd2627740ffec9469ffbac9f8c8185c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/PHP-DI\/PhpDocReader\/zipball\/66daff34cbd2627740ffec9469ffbac9f8c8185c",
+                "reference": "66daff34cbd2627740ffec9469ffbac9f8c8185c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "mnapoli\/hard-mode": "~0.3.0",
+                "phpunit\/phpunit": "^8.5|^9.0"
+            },
+            "time": "2020-10-12T12:39:22+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\PhpDocReader\\": "src\/PhpDocReader"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PhpDocReader parses @var and @param values in PHP docblocks (supports namespaced class names with the same resolution rules as PHP)",
+            "keywords": [
+                "phpdoc",
+                "reflection"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/PHP-DI\/PhpDocReader\/issues",
+                "source": "https:\/\/github.com\/PHP-DI\/PhpDocReader\/tree\/2.2.1"
+            },
+            "install-path": "..\/php-di\/phpdoc-reader"
+        },
+        {
+            "name": "phpstan\/phpdoc-parser",
+            "version": "0.5.7",
+            "version_normalized": "0.5.7.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/phpstan\/phpdoc-parser.git",
+                "reference": "816e826ce0b7fb32098d8cb6de62511ce6021cea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/phpstan\/phpdoc-parser\/zipball\/816e826ce0b7fb32098d8cb6de62511ce6021cea",
+                "reference": "816e826ce0b7fb32098d8cb6de62511ce6021cea",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "php-parallel-lint\/php-parallel-lint": "^1.2",
+                "phpstan\/extension-installer": "^1.0",
+                "phpstan\/phpstan": "^0.12.87",
+                "phpstan\/phpstan-strict-rules": "^0.12.5",
+                "phpunit\/phpunit": "^9.5",
+                "symfony\/process": "^5.2"
+            },
+            "time": "2021-09-12T11:52:00+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.5-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\PHPStan\\PhpDocParser\\": [
+                        "src\/"
+                    ]
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPDoc parser with support for nullable, intersection and generic types",
+            "support": {
+                "issues": "https:\/\/github.com\/phpstan\/phpdoc-parser\/issues",
+                "source": "https:\/\/github.com\/phpstan\/phpdoc-parser\/tree\/0.5.7"
+            },
+            "install-path": "..\/phpstan\/phpdoc-parser"
+        },
+        {
+            "name": "psr\/container",
+            "version": "1.1.2",
+            "version_normalized": "1.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/php-fig\/container.git",
+                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/php-fig\/container\/zipball\/513e0666f7216c7459170d56df27dfcefe1689ea",
+                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "time": "2021-11-05T16:50:12+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Psr\\Container\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https:\/\/www.php-fig.org\/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https:\/\/github.com\/php-fig\/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/php-fig\/container\/issues",
+                "source": "https:\/\/github.com\/php-fig\/container\/tree\/1.1.2"
+            },
+            "install-path": "..\/psr\/container"
+        },
+        {
+            "name": "symfony\/polyfill-ctype",
+            "version": "v1.29.0",
+            "version_normalized": "1.29.0.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/symfony\/polyfill-ctype.git",
+                "reference": "ef4d7e442ca910c4764bce785146269b30cb5fc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/symfony\/polyfill-ctype\/zipball\/ef4d7e442ca910c4764bce785146269b30cb5fc4",
+                "reference": "ef4d7e442ca910c4764bce785146269b30cb5fc4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "provide": {
+                "ext-ctype": "*"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "time": "2024-01-29T20:11:03+00:00",
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "name": "symfony\/polyfill",
+                    "url": "https:\/\/github.com\/symfony\/polyfill"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Symfony\\Polyfill\\Ctype\\": ""
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https:\/\/symfony.com\/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https:\/\/symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "support": {
+                "source": "https:\/\/github.com\/symfony\/polyfill-ctype\/tree\/v1.29.0"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/symfony.com\/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https:\/\/github.com\/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/symfony\/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "..\/symfony\/polyfill-ctype"
+        },
+        {
+            "name": "symfony\/polyfill-mbstring",
+            "version": "v1.29.0",
+            "version_normalized": "1.29.0.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/symfony\/polyfill-mbstring.git",
+                "reference": "9773676c8a1bb1f8d4340a62efe641cf76eda7ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/symfony\/polyfill-mbstring\/zipball\/9773676c8a1bb1f8d4340a62efe641cf76eda7ec",
+                "reference": "9773676c8a1bb1f8d4340a62efe641cf76eda7ec",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "provide": {
+                "ext-mbstring": "*"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "time": "2024-01-29T20:11:03+00:00",
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "name": "symfony\/polyfill",
+                    "url": "https:\/\/github.com\/symfony\/polyfill"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Symfony\\Polyfill\\Mbstring\\": ""
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https:\/\/symfony.com\/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https:\/\/symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https:\/\/github.com\/symfony\/polyfill-mbstring\/tree\/v1.29.0"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/symfony.com\/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https:\/\/github.com\/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/symfony\/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "..\/symfony\/polyfill-mbstring"
+        },
+        {
+            "name": "symfony\/polyfill-php80",
+            "version": "v1.24.0",
+            "version_normalized": "1.24.0.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/symfony\/polyfill-php80.git",
+                "reference": "57b712b08eddb97c762a8caa32c84e037892d2e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/symfony\/polyfill-php80\/zipball\/57b712b08eddb97c762a8caa32c84e037892d2e9",
+                "reference": "57b712b08eddb97c762a8caa32c84e037892d2e9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "time": "2021-09-13T13:58:33+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.23-dev"
+                },
+                "thanks": {
+                    "name": "symfony\/polyfill",
+                    "url": "https:\/\/github.com\/symfony\/polyfill"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Symfony\\Polyfill\\Php80\\": ""
+                },
+                "classmap": [
+                    "Resources\/stubs"
+                ]
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https:\/\/symfony.com\/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https:\/\/symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https:\/\/github.com\/symfony\/polyfill-php80\/tree\/v1.24.0"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/symfony.com\/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https:\/\/github.com\/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/symfony\/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "..\/symfony\/polyfill-php80"
+        },
+        {
+            "name": "twig\/twig",
+            "version": "v3.8.0",
+            "version_normalized": "3.8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/twigphp\/Twig.git",
+                "reference": "9d15f0ac07f44dc4217883ec6ae02fd555c6f71d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/twigphp\/Twig\/zipball\/9d15f0ac07f44dc4217883ec6ae02fd555c6f71d",
+                "reference": "9d15f0ac07f44dc4217883ec6ae02fd555c6f71d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony\/polyfill-ctype": "^1.8",
+                "symfony\/polyfill-mbstring": "^1.3",
+                "symfony\/polyfill-php80": "^1.22"
+            },
+            "require-dev": {
+                "psr\/container": "^1.0|^2.0",
+                "symfony\/phpunit-bridge": "^5.4.9|^6.3|^7.0"
+            },
+            "time": "2023-11-21T18:54:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Twig\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http:\/\/fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Twig Team",
+                    "role": "Contributors"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "https:\/\/twig.symfony.com",
+            "keywords": [
+                "templating"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/twigphp\/Twig\/issues",
+                "source": "https:\/\/github.com\/twigphp\/Twig\/tree\/v3.8.0"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/github.com\/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/twig\/twig",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "..\/twig\/twig"
+        },
+        {
+            "name": "wpify\/asset",
+            "version": "1.2.7",
+            "version_normalized": "1.2.7.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/wpify\/asset.git",
+                "reference": "6bc587810b33e47a86120cf2897790454d0ade38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/wpify\/asset\/zipball\/6bc587810b33e47a86120cf2897790454d0ade38",
+                "reference": "6bc587810b33e47a86120cf2897790454d0ade38",
+                "shasum": ""
+            },
+            "time": "2022-11-16T19:05:58+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Wpify\\Asset\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WPify",
+                    "email": "info@wpify.io"
+                }
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/wpify\/asset\/issues",
+                "source": "https:\/\/github.com\/wpify\/asset\/tree\/1.2.7"
+            },
+            "install-path": "..\/wpify\/asset"
+        },
+        {
+            "name": "wpify\/custom-fields",
+            "version": "3.12.14",
+            "version_normalized": "3.12.14.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/wpify\/custom-fields.git",
+                "reference": "55708e872e5bced5e60c43b3dbb9fb3763f9edef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/wpify\/custom-fields\/zipball\/55708e872e5bced5e60c43b3dbb9fb3763f9edef",
+                "reference": "55708e872e5bced5e60c43b3dbb9fb3763f9edef",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.4.33"
+            },
+            "time": "2024-03-08T09:46:30+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "functions.php"
+                ],
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Wpify\\CustomFields\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "WPify Custom Fields",
+            "support": {
+                "issues": "https:\/\/github.com\/wpify\/custom-fields\/issues",
+                "source": "https:\/\/github.com\/wpify\/custom-fields\/tree\/3.12.14"
+            },
+            "install-path": "..\/wpify\/custom-fields"
+        },
+        {
+            "name": "wpify\/model",
+            "version": "3.1.10",
+            "version_normalized": "3.1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/wpify\/model.git",
+                "reference": "4c661078ed8768b9bfb75a5b8ba1cd245f62d320"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/wpify\/model\/zipball\/4c661078ed8768b9bfb75a5b8ba1cd245f62d320",
+                "reference": "4c661078ed8768b9bfb75a5b8ba1cd245f62d320",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3.0||^8.0.0",
+                "phpstan\/phpdoc-parser": "^0.5.6"
+            },
+            "require-dev": {
+                "brain\/monkey": "^2.6",
+                "codeception\/codeception": "^4.1",
+                "codeception\/module-asserts": "^1.0.0",
+                "codeception\/module-phpbrowser": "^1.0.0"
+            },
+            "time": "2023-03-23T16:21:04+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Wpify\\Model\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Mejta",
+                    "email": "daniel@mejta.net"
+                }
+            ],
+            "description": "WPify Model",
+            "support": {
+                "issues": "https:\/\/github.com\/wpify\/model\/issues",
+                "source": "https:\/\/github.com\/wpify\/model\/tree\/3.1.10"
+            },
+            "install-path": "..\/wpify\/model"
+        },
+        {
+            "name": "wpify\/plugin-utils",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/wpify\/plugin-utils.git",
+                "reference": "0ace7f3a23bdfe3e2b2b05c72af79fa034c7e77a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/wpify\/plugin-utils\/zipball\/0ace7f3a23bdfe3e2b2b05c72af79fa034c7e77a",
+                "reference": "0ace7f3a23bdfe3e2b2b05c72af79fa034c7e77a",
+                "shasum": ""
+            },
+            "time": "2021-09-10T10:09:45+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Wpify\\PluginUtils\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WPify",
+                    "email": "info@wpify.io"
+                }
+            ],
+            "description": "WPify Plugin Utilities",
+            "support": {
+                "issues": "https:\/\/github.com\/wpify\/plugin-utils\/issues",
+                "source": "https:\/\/github.com\/wpify\/plugin-utils\/tree\/1.0.1"
+            },
+            "install-path": "..\/wpify\/plugin-utils"
+        },
+        {
+            "name": "wpify\/post-type",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/gitlab.com\/wpify\/post-type.git",
+                "reference": "42b8a3d70075b7060a68598314eaf87f9b630602"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/gitlab.com\/api\/v4\/projects\/wpify%2Fpost-type\/repository\/archive.zip?sha=42b8a3d70075b7060a68598314eaf87f9b630602",
+                "reference": "42b8a3d70075b7060a68598314eaf87f9b630602",
+                "shasum": ""
+            },
+            "time": "2021-09-08T14:23:01+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Wpify\\PostType\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WPify",
+                    "email": "info@wpify.io"
+                }
+            ],
+            "description": "WPify Post Type",
+            "support": {
+                "issues": "https:\/\/gitlab.com\/api\/v4\/projects\/29454510\/issues"
+            },
+            "abandoned": true,
+            "install-path": "..\/wpify\/post-type"
+        },
+        {
+            "name": "wpify\/taxonomy",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/wpify\/taxonomy.git",
+                "reference": "34dec15f7039db6ac988da2b8a530c339ad92090"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/wpify\/taxonomy\/zipball\/34dec15f7039db6ac988da2b8a530c339ad92090",
+                "reference": "34dec15f7039db6ac988da2b8a530c339ad92090",
+                "shasum": ""
+            },
+            "time": "2021-09-08T12:44:19+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Wpify\\Taxonomy\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WPify",
+                    "email": "info@wpify.io"
+                }
+            ],
+            "description": "WPify Taxonomy",
+            "support": {
+                "issues": "https:\/\/github.com\/wpify\/taxonomy\/issues",
+                "source": "https:\/\/github.com\/wpify\/taxonomy\/tree\/1.0.0"
+            },
+            "install-path": "..\/wpify\/taxonomy"
+        },
+        {
+            "name": "wpify\/templates",
+            "version": "3.0.8",
+            "version_normalized": "3.0.8.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/wpify\/templates.git",
+                "reference": "b6c2004b122e3ca6edcccf99db6eef33507f0539"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/wpify\/templates\/zipball\/b6c2004b122e3ca6edcccf99db6eef33507f0539",
+                "reference": "b6c2004b122e3ca6edcccf99db6eef33507f0539",
+                "shasum": ""
+            },
+            "require": {
+                "twig\/twig": "^3.4"
+            },
+            "time": "2023-04-06T09:28:04+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpifyMapyCzDeps\\Wpify\\Templates\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WPify",
+                    "email": "info@wpify.io"
+                }
+            ],
+            "description": "WPify Templates",
+            "support": {
+                "issues": "https:\/\/github.com\/wpify\/templates\/issues",
+                "source": "https:\/\/github.com\/wpify\/templates\/tree\/3.0.8"
+            },
+            "install-path": "..\/wpify\/templates"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

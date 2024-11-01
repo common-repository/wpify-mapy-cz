@@ -1,0 +1,20 @@
+{
+    "name": "wpify\/templates",
+    "description": "WPify Templates",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "WpifyMapyCzDeps\\Wpify\\Templates\\": "src\/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WPify",
+            "email": "info@wpify.io"
+        }
+    ],
+    "require": {
+        "twig\/twig": "^3.4"
+    }
+}

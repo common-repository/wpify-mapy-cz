@@ -1,0 +1,319 @@
+# Copyright (C) 2022 WPify
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPify Mapy.cz WPORG_VERSION\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpify-mapy-cz\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-07-15T15:43:16+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: wpify-mapy-cz\n"
+
+#. Plugin Name of the plugin
+#: src/Admin.php:139
+#: assets/wpify-mapy-cz-block.js:74
+#: build/wpify-mapy-cz-block.js:1
+msgid "WPify Mapy.cz"
+msgstr ""
+
+#. Description of the plugin
+msgid "Easily embed free mapy.cz maps anywhere"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPify"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wpify.io/"
+msgstr ""
+
+#: src/Admin.php:92
+#: src/Admin.php:93
+msgid "Mapy.cz"
+msgstr ""
+
+#: src/Admin.php:102
+#: src/Admin.php:103
+msgid "Maps"
+msgstr ""
+
+#: src/Admin.php:110
+#: src/Admin.php:111
+msgid "Markers"
+msgstr ""
+
+#: src/Admin.php:141
+msgid "Welcome! Plugin WPify Mapy.cz by <a href=\"%s\" target=\"_blank\">wpify.io</a> lets you add mapy.cz maps to your site easily!"
+msgstr ""
+
+#: src/Admin.php:148
+msgid "You can start adding <a href=\"%s\">maps</a> and <a href=\"%s\">markers</a> right away."
+msgstr ""
+
+#: src/Admin.php:155
+msgid "How to create map and insert it to your page"
+msgstr ""
+
+#: src/Admin.php:158
+msgid "Add as many <a href=\"%s\">markers</a> as needed, select it's positions and publish them."
+msgstr ""
+
+#: src/Admin.php:163
+msgid "Add a new <a href=\"%s\">map</a>, enter the options, choose markers to display and click Publish."
+msgstr ""
+
+#: src/Admin.php:171
+msgid "To insert the map into your page, you can either use <i>Mapy.cz</i> Gutenberg block, or you can use the shortcode provided in the maps <a href=\"%s\">admin listing</a>"
+msgstr ""
+
+#: src/Admin.php:183
+msgid "Shortcode"
+msgstr ""
+
+#: src/Admin.php:198
+msgid "Settings"
+msgstr ""
+
+#: src/Admin.php:202
+msgid "Get more plugins and support"
+msgstr ""
+
+#: src/Managers/PostTypesManager.php:29
+msgid "Marker details"
+msgstr ""
+
+#: src/Managers/PostTypesManager.php:37
+msgid "Marker"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:23
+msgid "Map details"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:31
+msgid "Map"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:44
+msgctxt "post type general name"
+msgid "Maps"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:45
+msgctxt "post type singular name"
+msgid "Map"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:46
+msgctxt "admin menu"
+msgid "Maps"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:47
+msgctxt "add new on admin bar"
+msgid "Map"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:49
+msgid "Add New Map"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:50
+msgid "New Map"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:51
+msgid "Edit Map"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:52
+msgid "View Map"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:53
+msgid "All Maps"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:54
+msgid "Search Maps"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:55
+msgid "Parent Maps:"
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:56
+msgid "No Maps found."
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:57
+msgid "No Maps found in Trash."
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:59
+msgid "Description of Map."
+msgstr ""
+
+#: src/PostTypes/MapPostType.php:66
+msgid "map"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:18
+msgctxt "post type general name"
+msgid "Markers"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:19
+msgctxt "post type singular name"
+msgid "Marker"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:20
+msgctxt "admin menu"
+msgid "Markers"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:21
+msgctxt "add new on admin bar"
+msgid "Marker"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:23
+msgid "Add New Marker"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:24
+msgid "New Marker"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:25
+msgid "Edit Marker"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:26
+msgid "View Marker"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:27
+msgid "All Markers"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:28
+msgid "Search Markers"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:29
+msgid "Parent Markers:"
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:30
+msgid "No Markers found."
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:31
+msgid "No Markers found in Trash."
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:33
+msgid "Description of Marker."
+msgstr ""
+
+#: src/PostTypes/MarkerPostType.php:40
+msgid "marker"
+msgstr ""
+
+#: wpify-mapy-cz.php:65
+msgid "<div class=\"error notice\"><p>Opps! %s requires a minimum PHP version of %s. Your current version is: %s. Please contact your host to upgrade.</p></div>"
+msgstr ""
+
+#: wpify-mapy-cz.php:76
+msgid "<div class=\"error notice\"><p>Opps! %s is corrupted it seems, please re-install the plugin.</p></div>"
+msgstr ""
+
+#: assets/map-field.js:17
+#: build/map-field.js:1
+msgid "Basic map"
+msgstr ""
+
+#: assets/map-field.js:18
+#: build/map-field.js:1
+msgid "Ortho map"
+msgstr ""
+
+#: assets/map-field.js:19
+#: build/map-field.js:1
+msgid "Hybrid map"
+msgstr ""
+
+#: assets/map-field.js:20
+#: build/map-field.js:1
+msgid "Turist map"
+msgstr ""
+
+#: assets/map-field.js:21
+#: build/map-field.js:1
+msgid "Winter turist map"
+msgstr ""
+
+#: assets/map-field.js:136
+#: assets/marker-field.js:112
+#: build/map-field.js:1
+#: build/marker-field.js:1
+msgid "Description:"
+msgstr ""
+
+#: assets/map-field.js:150
+#: build/map-field.js:1
+msgid "Display type:"
+msgstr ""
+
+#: assets/map-field.js:167
+#: build/map-field.js:1
+msgid "Markers:"
+msgstr ""
+
+#: assets/map-field.js:184
+#: build/map-field.js:1
+msgid "Set zoom and center by markers"
+msgstr ""
+
+#: assets/map-field.js:194
+#: build/map-field.js:1
+msgid "Show info window"
+msgstr ""
+
+#: assets/map-field.js:199
+#: build/map-field.js:1
+msgid "Width:"
+msgstr ""
+
+#: assets/map-field.js:204
+#: build/map-field.js:1
+msgid "Height:"
+msgstr ""
+
+#: assets/marker-field.js:99
+#: build/marker-field.js:1
+msgid "Type to search..."
+msgstr ""
+
+#: assets/marker-field.js:104
+#: build/marker-field.js:1
+msgid "latitude: %s, longitude: %s"
+msgstr ""
+
+#: assets/wpify-mapy-cz-block.js:53
+#: build/wpify-mapy-cz-block.js:1
+msgid "Select map"
+msgstr ""
+
+#: assets/wpify-mapy-cz-block.js:63
+#: build/wpify-mapy-cz-block.js:1
+msgid "WPify Mapy.cz:"
+msgstr ""

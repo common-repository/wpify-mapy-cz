@@ -1,0 +1,58 @@
+== Changelog ==
+
+= 3.1.7 - 3.1.11 =
+* Upgrade dependencies, add old WP compatibility
+
+= 3.1.1 - 3.1.6 =
+* Small fixes
+
+= 3.1.0 =
+* Add disable zoom on scroll option
+* Update dependencies
+
+= 3.0.8 =
+* Add render function
+
+= 3.0.6 - 3.0.7 =
+* Bugfixes
+
+= 3.0.4 - 3.0.5 =
+* Upgrade dependencies
+
+= 3.0.3 =
+* Bug fix
+
+= 3.0.4 =
+* Bug fix
+
+= 3.0.2 =
+* Fix marker description
+
+= 3.0.1 =
+* Fix markers loading
+
+= 3.0.0
+* Preparation for PRO version
+* Rewrite to the new WPify Core
+
+= 2.0.14 =
+* PHP-DI hotfix
+
+= 2.0.13 =
+* Upgrade compatibility to WordPress 5.7
+* Prefix dependencies
+* Change logo of the plugin
+
+= 2.0.12 =
+* Plugin logo added
+
+= 2.0.1 - 2.0.11 =
+* Fixes
+
+= 2.0.0 =
+* Limit usage of custom fields
+* Many new hooks to use
+* Change of appearance on the backend
+
+= 1.0.0 =
+* An initial version of the plugin.
